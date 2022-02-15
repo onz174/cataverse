@@ -1,0 +1,16 @@
+
+.footer {padding:20px;background:#fcfcfc;}
+.f_sec img {width: 260px;}
+.f_sec p {font-size: 14px; margin: 10px 0 0; }
+.footer .social_icons li:last-child {margin-right:0;}
+
+.f_top_sec {background: #1b1918; padding:15px 30px 10px 0;}
+.nft_logo span {color: #fff; font-weight: 700; font-size: 18px; margin-right: 25px;}
+.nft_logo a img { width: 140px; display:inline-block;}
+
+@media (max-width:767px){
+    .f_top_sec {padding-right: 0;}
+    .nft_logo {flex-direction: column;}
+    .nft_logo a img {width:120px;}
+    .nft_logo span {margin: 0 0 15px;}
+}
